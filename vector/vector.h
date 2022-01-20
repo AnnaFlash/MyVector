@@ -344,7 +344,7 @@ public:
             return begin() + return_dist;
         }
         else {
-            throw std::out_of_range("Emplace position out of range");
+            throw std::out_of_range("Erase position out of range");
         }
     }
 private:
